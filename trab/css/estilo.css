@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+.menu ul {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color:#3235f1;
+    list-style: none;
+    margin: auto;
+
+
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+
+    font-size:10px ;
+    padding: 10px 10px;
+    display: inline-block;
+    background-color:#3235f1 ;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+
+}
+
+.menu ul li a:hover {
+    color: #ffc982;
+}
+.search-bar {
+ text-align: center;
+  border-radius: 30px;
+  
+}
+.headerBanner{
+border-top: 5px solid #3235f1;
+background-color: #3235f1;
+
+}
+
+::placeholder{
+    color: darkslategrey;
+    font-size:10px ;
+    text-align: left; 
+}
+#busca{
+    margin: auto;
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px;
+    padding-right: 40px;
+    font-size:8px ;
+    width: 350px;
+    height: 25px;
+
+}
+
