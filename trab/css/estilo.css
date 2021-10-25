@@ -39,6 +39,8 @@
   
 }
 .headerBanner{
+
+    height: 40px;
     border-top: 5px solid #3235f1;
     background-color: #3235f1;
 
@@ -46,19 +48,36 @@
 
 ::placeholder{
     color: darkslategrey;
-    font-size:10px ;
+    font-size: 12px ;
     text-align: left; 
 }
 #busca{
     
+    
+    border: none;
+    background-size: 20px;
     margin: auto;
     border-radius: 50px;
     border-style: none;
-    padding: 10px;
+    padding: 12px;
     padding-right: 40px;
-    font-size:8px ;
+    font-size: 12px ;
     width: 350px;
-    height: 25px;
+    height: 30px;
+    background-color: white;
 
 }
 
+#buscaBtn{
+
+    position: relative;
+    background: 20px;
+    width: 25px ;
+    height: 25px ;
+    background: url("../images/iconeLupa.jpg")  no-repeat center right;
+    background-size: 25px;
+    left: -36px;
+    bottom: -7px; 
+    border: none;
+    cursor: pointer;
+}
