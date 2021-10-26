@@ -4,10 +4,15 @@
     padding: 0
 }
 
+.headerBanner{
+
+       background-color: #3235f1;
+   
+}
 .menu ul {
     padding-left: 200px;
     padding-right: 200px;
-    background-color:#3235f1;
+   
     list-style: none;
     margin: auto;
 
@@ -15,7 +20,7 @@
 }
 
 .menu ul li {
-    display: inline;
+    display: inline-block;
 }
 
 .menu ul li a {
@@ -23,7 +28,6 @@
     font-size: 14px ;
     padding: 10px 10px;
     display: inline-block;
-    background-color:#3235f1 ;
     color: white;
     text-decoration: none;
     margin: auto;
@@ -31,20 +35,14 @@
 }
 
 .menu ul li a:hover {
-    color: #ffc982;
+    color: #d6861d;
 }
 .search-bar {
     text-align: center;
     border-radius: 30px;
   
 }
-.headerBanner{
 
-    height: 40px;
-    border-top: 5px solid #3235f1;
-    background-color: #3235f1;
-
-}
 
 ::placeholder{
     color: darkslategrey;
@@ -65,7 +63,7 @@
     width: 350px;
     height: 30px;
     background-color: white;
-
+    box-shadow:  3px 3px #1d20af;
 }
 
 #buscaBtn{
@@ -80,4 +78,37 @@
     bottom: -7px; 
     border: none;
     cursor: pointer;
+}
+
+img{
+
+    width: 100px;
+    margin: 10px;
+    
+}
+
+.iconMenu{
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+
+}
+
+.iconMenu, a{
+    
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    justify-content: center;
+    
+}
+.menuIcon{
+
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    margin: 10px 100px 0 100px;
 }
