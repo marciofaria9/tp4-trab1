@@ -1,22 +1,17 @@
-
-*{
+* {
     margin: 0;
     padding: 0
 }
 
-.headerBanner{
-
-       background-color: #3235f1;
-   
+.headerBanner {
+    background-color: #3235f1;
 }
+
 .menu ul {
     padding-left: 200px;
     padding-right: 200px;
-   
     list-style: none;
     margin: auto;
-
-
 }
 
 .menu ul li {
@@ -24,36 +19,30 @@
 }
 
 .menu ul li a {
-
-    font-size: 14px ;
+    font-size: 14px;
     padding: 10px 10px;
     display: inline-block;
     color: white;
     text-decoration: none;
     margin: auto;
-
 }
 
 .menu ul li a:hover {
     color: #d6861d;
 }
+
 .search-bar {
     text-align: center;
     border-radius: 30px;
-  
 }
 
-
-::placeholder{
+::placeholder {
     color: darkslategrey;
-    font-size: 12px ;
-    text-align: left; 
+    font-size: 12px;
+    text-align: left;
 }
 
-
-#busca{
-    
-    
+#busca {
     border: none;
     background-size: 20px;
     margin: auto;
@@ -61,46 +50,39 @@
     border-style: none;
     padding: 12px;
     padding-right: 40px;
-    font-size: 12px ;
+    font-size: 12px;
     width: 350px;
     height: 30px;
     background-color: white;
-    box-shadow:  3px 3px #1d20af;
+    box-shadow: 3px 3px #1d20af;
 }
 
-#buscaBtn{
-
+#buscaBtn {
     position: relative;
     background: 20px;
-    width: 25px ;
-    height: 25px ;
-    background: url("../images/iconeLupa.jpg")  no-repeat center right;
+    width: 25px;
+    height: 25px;
+    background: url("../images/iconeLupa.jpg") no-repeat center right;
     background-size: 25px;
     left: -37px;
-    bottom: -7px; 
+    bottom: -7px;
     border: none;
     cursor: pointer;
 }
 
-img{
-
-    width: 60px ;
+img {
+    width: 60px;
     margin: 10px;
     box-shadow: none;
 }
 
-.iconMenu{
-    
+.iconMenu {
     border-style: solid;
     border-width: 2px;
     border-radius: 30px;
-    
-
 }
 
-.iconMenu, .botaoMenu{
-      
-    
+.iconMenu, .botaoMenu {
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -108,17 +90,19 @@ img{
     margin: 15px;
     justify-content: center;
     border-color: rgba(153, 153, 153, 0.897)
-    
 }
 
-
-.menuIcon{
-
+.menuIcon {
     text-align: center;
     border-style: solid;
     border-width: 1px;
     border-radius: 30px;
-    margin: 20px 200px ;
+    margin: 20px 200px;
     border-color: rgba(153, 153, 153, 0.897);
     min-width: 150px;
+}
+
+.logo {
+    float: left;
+    margin: 1px;
 }
