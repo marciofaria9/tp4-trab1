@@ -81,6 +81,15 @@ img {
     border-style: solid;
         
 }
+.iconMenu a{
+    width: 60px;
+    height: 60px;
+}
+.iconMenu p{
+
+    font-size: 12px;
+
+}
 
 .iconMenu, .botaoMenu {
     text-decoration: none;
