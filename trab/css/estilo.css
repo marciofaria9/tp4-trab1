@@ -94,12 +94,12 @@ img{
     border-style: solid;
     border-width: 2px;
     border-radius: 30px;
+    
 
 }
 
 .iconMenu, .botaoMenu{
-    
-    
+      
     
     text-decoration: none;
     display: inline-block;
@@ -118,6 +118,7 @@ img{
     border-style: solid;
     border-width: 1px;
     border-radius: 30px;
-    margin: 10px 200px 0 200px;
+    margin: 20px 200px ;
     border-color: rgba(153, 153, 153, 0.897);
+    min-width: 150px;
 }
