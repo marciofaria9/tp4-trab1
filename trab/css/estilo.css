@@ -77,32 +77,29 @@
 }
 
 .iconMenu {
-  
     border-style: solid;
-        
 }
-.iconMenu a{
+
+.iconMenu a {
     width: 60px;
     height: 60px;
 }
-.iconMenu p{
 
+.iconMenu p {
     font-size: 12px;
-
 }
 
 .iconMenu, .botaoMenu {
     text-decoration: none;
     display: inline-block;
     text-align: center;
-    border-left-width: 3px; 
+    border-left-width: 3px;
     border-right-width: 3px;
     border-bottom-width: 0;
     border-top-width: 0;
     margin: 15px;
     justify-content: center;
     height: 100px;
-
 }
 
 .menuIcon {
@@ -115,39 +112,31 @@
     min-width: 150px;
 }
 
-
-
-.footer-rodape{
-
+.footer-rodape {
     background-color: rgb(172, 172, 172);
     width: 100%;
     height: 100px;
     bottom: 0;
-   
 }
 
-
-.divLogoRodape{
-
+.divLogoRodape {
     display: block;
     float: left;
     margin: 10px;
-    
 }
 
-.divContatos, .divTextoInf{
-    
+.divContatos, .divTextoInf {
     display: inline-block;
     border-left-style: solid;
     padding-left: 20px;
-    border-color: #fff ;
+    border-color: #fff;
     margin-top: 10px;
     margin-left: 5%;
     margin-bottom: 10px;
-   
-} 
-#logo {
+}
 
-    border-radius: 3px;
-    
+.logo {
+    float: left;
+    padding-top: 5px;
+    padding-left: 5px;
 }
