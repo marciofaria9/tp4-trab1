@@ -146,14 +146,12 @@
     text-decoration: underline;
 }
 
-.contato{
-font-family: Arial, Helvetica, sans-serif;
-color:  #999;
-
+.contato {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
 }
 
-.divLogoRodape{
-
-padding-left: 10px;
-margin-right: -50px;
+.divLogoRodape {
+    padding-left: 10px;
+    margin-right: -50px;
 }
