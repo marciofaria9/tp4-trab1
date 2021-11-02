@@ -57,7 +57,12 @@ function adcElemento (variavel) {
 }
 
 for(var i = 0; i < 5; i++){
-
-    console.log(alcoolGel[i].loja)
-
+    console.log(alcoolGel[i])
+    console.log(mascara[i])
+    console.log(sabao[i])
+    console.log(protetor[i])
+    console.log(avental[i])
+    console.log(gorro[i])
+    
+    
 }
