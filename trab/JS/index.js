@@ -47,22 +47,39 @@ gorro = [
 
 
 
-function adcElemento (variavel) {
-  
-  var divNova = document.createElement("div");
+function adcElemento (variavel, variavel2, variavel3) {
+ 
+  var div = document.createElement("div");
+  var divInt = document.createElement("div")
+  var divInt2 = document.createElement("div")
+  var divInt3 = document.createElement("div")
+
+  divInt.classList.add ("itenDiv")
+  divInt2.classList.add ("itenDiv")
+  divInt3.classList.add ("itenDiv")
+  div.classList.add("itenProd")
+
   var conteudoNovo = document.createTextNode(variavel);
-  divNova.appendChild(conteudoNovo); //adiciona o nó de texto à nova div criada
-  var divAtual = document.getElementById("div1");
-  document.body.insertAdjacentElement("beforeend", divNova);
+  var conteudoNovo1 = document.createTextNode(variavel2);
+  var conteudoNovo2 = document.createTextNode (variavel3);
+
+  divInt.appendChild(conteudoNovo);
+  divInt2.appendChild(conteudoNovo1);
+  divInt3.appendChild(conteudoNovo2);
+  div.appendChild(divInt)
+  div.appendChild(divInt2)
+  div.appendChild(divInt3)
+  var divAtual = document.querySelector(".div1");
+  divAtual.insertAdjacentElement("beforeend", div);
 }
 
-for(var i = 0; i < 5; i++){
-    console.log(alcoolGel[i])
-    console.log(mascara[i])
-    console.log(sabao[i])
-    console.log(protetor[i])
-    console.log(avental[i])
-    console.log(gorro[i])
-    
-    
+
+
+function creatDiv (){
+       
+    for(var i = 0; i < 5; i++){
+        adcElemento (alcoolGel[i].loja, alcoolGel[i].produto, alcoolGel[i].preco)
+    }
+        
 }
+creatDiv()
