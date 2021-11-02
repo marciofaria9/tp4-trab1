@@ -80,6 +80,7 @@ function creatDiv (){
     for(var i = 0; i < 5; i++){
         adcElemento (alcoolGel[i].loja, alcoolGel[i].produto, alcoolGel[i].preco)
     }
-        
+    
+    
 }
 creatDiv()
