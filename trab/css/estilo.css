@@ -111,7 +111,6 @@
     width: 100%;
     height: 100px;
     bottom: 0;
-   
 }
 
 .divLogoRodape {
@@ -157,20 +156,18 @@
     margin-right: -50px;
 }
 
-.itenProd{
+.itenProd {
     border-style: groove;
     margin: 20px;
     display: inline-block;
 }
-.itenDiv{
+
+.itenDiv {
     border-style: double;
     margin: 20px;
     text-align: center;
 }
 
-.div1{
-
-    background-color: #1d20af;
+.div1 {
     justify-content: center;
-
 }
