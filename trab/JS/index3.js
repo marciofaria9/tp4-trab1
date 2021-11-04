@@ -12,15 +12,19 @@ mascara = [
 ]
 
 
-
 function adcElemento(variavel, variavel2, variavel3, variavel4) {
     var link = document.createElement('a')
     var div = document.createElement("div");
     var divInt = document.createElement("div")
     var divInt2 = document.createElement("div")
     var divInt3 = document.createElement("div")
+    var img = document.createElement("img")
+    img.src = "../images/img-avental.jpg"
+    img.classList.add("imgDivDentro")
 
     link.href = variavel4
+    img.href = variavel4
+
     divInt.classList.add("itenDiv")
     divInt2.classList.add("itenDiv")
     divInt3.classList.add("itenDiv")
@@ -35,8 +39,9 @@ function adcElemento(variavel, variavel2, variavel3, variavel4) {
     divInt.appendChild(conteudoNovo);
     divInt2.appendChild(conteudoNovo1);
     divInt3.appendChild(conteudoNovo2);
+    div.appendChild(img)
 
-
+    link.appendChild(img)
     link.appendChild(divInt)
     link.appendChild(divInt2)
     link.appendChild(divInt3)
