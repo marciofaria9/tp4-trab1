@@ -179,18 +179,24 @@
 }
 
 .itenProd {
-
+   
+    position:relative;
     width: 200px;
     height: 250px;
     border-style: groove;
     margin: 40px;
     display: inline-block;
     border-radius: 10px;
+    border: 2px;
     
 }
 
+.itenProd:hover{top:-2px;box-shadow:0 2px 2px #666}
+
 .itenDiv {
     text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(64, 64, 64);
     text-align: center;
     flex-direction: column;
     bottom: 0;
@@ -221,8 +227,11 @@
 }
 
 .imgDivDentro{
-    width: 100%;
+    
+  width: 100%;
     height: 180px;
     align-items: center;
     border-radius: 10px;
 }
+
+
