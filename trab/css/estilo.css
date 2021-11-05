@@ -55,7 +55,9 @@
     height: 30px;
     background-color: white;
     box-shadow: 3px 3px #1d20af;
+    
 }
+
 
 #buscaBtn {
     position: relative;
@@ -73,8 +75,8 @@
 .imageIcon{
     margin-top: 8%;
     display: inline-flex;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
     align-items: center;
 }
 
@@ -131,6 +133,14 @@
     margin: 10px;
 }
 
+.logoRodape{
+    margin-top: 8%;
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+
 .divContatos, .divTextoInf {
     display: inline-block;
     border-left-style: solid;
@@ -176,10 +186,11 @@
     margin: 40px;
     display: inline-block;
     border-radius: 10px;
+    
 }
 
 .itenDiv {
-    
+    text-decoration: none;
     text-align: center;
     flex-direction: column;
     bottom: 0;

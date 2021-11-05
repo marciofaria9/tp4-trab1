@@ -21,6 +21,7 @@ function adcElemento(variavel, variavel2, variavel3, variavel4) {
     var img = document.createElement("img")
     img.src = "../images/img-Alcool.jpg"
     img.classList.add("imgDivDentro")
+    
 
     link.href = variavel4
     img.href = variavel4
