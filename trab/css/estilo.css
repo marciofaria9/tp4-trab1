@@ -188,10 +188,15 @@
     display: inline-block;
     border-radius: 10px;
     border: 2px;
-    
+    transition: 200ms transform ease-in-out;
 }
 
-.itenProd:hover{top:-2px;box-shadow:0 2px 2px #666}
+.itenProd:hover{
+    transform:scale(1.1);
+    transition: 300ms transform cubic-bezier(0.42, 0, 0.46, 2.27);
+    top:-2px;
+    box-shadow:0 2px 2px #666;
+}
 
 .itenDiv {
     text-decoration: none;
