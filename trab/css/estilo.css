@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0
 }
+body{
+
+    background-color: rgb(243, 243, 243);
+
+}
+
+a{
+    text-decoration: none; 
+}
 
 .headerBanner {
     background-color: #3235f1;
@@ -28,7 +37,9 @@
 }
 
 .menu ul li a:hover {
-    color: #d6861d;
+    color: #8a8a8a;
+    background-color: rgb(0, 18, 179);
+    font-weight: bold;
 }
 
 .search-bar {
@@ -146,9 +157,8 @@
     border-left-style: solid;
     padding-left: 20px;
     border-color: #fff;
-    margin-top: 10px;
     margin-left: 5%;
-    margin-bottom: 10px;
+  
 }
 
 .logo {
@@ -160,18 +170,30 @@
 .divTextoInf {
     color: rgb(5, 5, 5);
     font-size: 15px;
+      
+}
+.textoInf{
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-.white-text {
+.textCont {
     color: rgb(3, 3, 3);
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: underline;
+    padding-bottom: 5px;
 }
 
 .contato {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
+
 
 .divLogoRodape {
     padding-left: 10px;
@@ -179,7 +201,8 @@
 }
 
 .itenProd {
-   
+    
+    background-color: #ffff;
     position:relative;
     width: 200px;
     height: 250px;
@@ -189,13 +212,15 @@
     border-radius: 10px;
     border: 2px;
     transition: 200ms transform ease-in-out;
+
 }
 
 .itenProd:hover{
     transform:scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.46, 2.27);
     top:-2px;
-    box-shadow:0 2px 2px #666;
+    -webkit-box-shadow: 3px 0px 11px -1px #646464; 
+    box-shadow: 3px 0px 11px -1px #646464;
 }
 
 .itenDiv {
@@ -210,12 +235,17 @@
 
 .div1 {
     
+    background-color: rgb(233, 233, 233);
     max-width: 70%;
     display: block;
+    border-radius: 10px;
     margin-top: 30px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 5%;
     text-align: center;
+    -webkit-box-shadow: 3px 0px 11px -1px #646464; 
+    box-shadow: 3px 0px 11px -1px #646464;
 
 }
 
