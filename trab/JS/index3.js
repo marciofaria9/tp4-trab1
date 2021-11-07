@@ -4,7 +4,7 @@ var textMenu = ["Alcool em gel 500 ml", "Máscara", "Sabão Antiséptico",
 
 
 mascara = [
-    { loja: textLojas[0], produto: textMenu[1], preco: "R$ 12,99", linkProd: "https://www.americanas.com.br/produto/2650286012?epar=bp_pl_00_go_bs_todas_geral_gmv&opn=YSMESP&WT.srch=1&gclid=Cj0KCQjww4OMBhCUARIsAILndv7py2X92Eik0ywa2IAh1YIbgU6QlmoJu6N9du07noDMqwn6PH0wO5waAktCEALw_wcB&cor=AZUL&cor%2Festampa=Azul-bebe" },
+    { loja: textLojas[0], produto: textMenu[1], preco: "R$ 12,93", linkProd: "https://www.americanas.com.br/produto/2650286012?epar=bp_pl_00_go_bs_todas_geral_gmv&opn=YSMESP&WT.srch=1&gclid=Cj0KCQjww4OMBhCUARIsAILndv7py2X92Eik0ywa2IAh1YIbgU6QlmoJu6N9du07noDMqwn6PH0wO5waAktCEALw_wcB&cor=AZUL&cor%2Festampa=Azul-bebe" },
     { loja: textLojas[1], produto: textMenu[1], preco: " R$14,90", linkProd: "https://www.carrefour.com.br/mascara-3-camadas-descartavel-azul---caixa-com-50---hc400-hc400-mp912629859/p?utm_medium=sem&utm_source=google_pla_3p&utm_campaign=ticket_baixo&gclid=Cj0KCQjww4OMBhCUARIsAILndv5SIKs5Qc29o7NvDQqtkv3F-yLcCwO3PFB-1f6u3HJt4HTAfnjTIIcaAn2HEALw_wcB" },
     { loja: textLojas[2], produto: textMenu[1], preco: " R$11,00", linkProd: "https://www.magazineluiza.com.br/mascara-descartavel-tripla-50-unidades-azul-importada-chn/p/cjhg939b58/cp/asph/?&seller_id=mcardosocomercio&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=61985&gclid=Cj0KCQjww4OMBhCUARIsAILndv4G8LbnAA8dckFNLd05BVyD1vjvw071czyjEePG20ru-pnoQEuQmlgaAiwvEALw_wcB&gclsrc=aw.ds" },
     { loja: textLojas[3], produto: textMenu[1], preco: "R$ 13,85", linkProd: "https://www.amazon.com.br/Mascara-Descartavel-Tripla-Elastico-Nasal/dp/B091CYDSTB/ref=sr_1_9?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=mascara+tripla&qid=1636073203&sr=8-9" },
