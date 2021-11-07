@@ -54,35 +54,6 @@ a{
     text-align: left;
 }
 
-#busca {
-    border: none;
-    background-size: 20px;
-    margin: auto;
-    border-radius: 50px;
-    border-style: none;
-    padding: 12px;
-    padding-right: 40px;
-    font-size: 12px;
-    width: 350px;
-    height: 30px;
-    background-color: white;
-    box-shadow: 3px 3px #1d20af;
-    
-}
-
-
-#buscaBtn {
-    position: relative;
-    background: 20px;
-    width: 25px;
-    height: 25px;
-    background: url("../images/iconeLupa.jpg") no-repeat center right;
-    background-size: 25px;
-    left: -40px;
-    bottom: -8px;
-    border: none;
-    cursor: pointer;
-}
 
 .imageIcon{
     margin-top: 8%;
@@ -125,13 +96,6 @@ a{
     width: 10%;
     min-width: 100px;
     min-height: 100px;
-}
-
-.menuIcon {
-    
-    text-align: center;
-    margin: 20px 200px;
-    min-width: 150px;
 }
 
 .footer-rodape {
@@ -340,6 +304,31 @@ h3{
         display: block;
         width: 200px;
         height: 200px;
+    }
+    .menu ul li a{
+        
+        height: 100%;
+        float: none;
+        font-size: 35px;
+    }
+    li, .logo,  #logo{
+       display: inline; 
+       width: 100%;
+       float: none;     
+    }
+    #logo{
+        width: 100px;
+        height: 100px;
+        float: none;
+        margin: 0;
+        padding: 35px 0 0  0;
+        position: relative;     
+    }
+    
+    .logoDiv{
+        width: 100x;
+        height: 140px;
+        text-align: center;
     }
 
 }
