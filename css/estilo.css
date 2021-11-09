@@ -10,6 +10,7 @@ body {
 
 a {
     text-decoration: none;
+    
 }
 
 .headerBanner {
@@ -27,17 +28,22 @@ a {
 
 .menu ul li a {
 
- font-size: 18px;
+    font-size: 18px;
     padding: 50px 10px 50px 10px;
     display: inline-block;
     color: white;
     text-decoration: none;
 }
 
+li:hover {
+
+    background-color: rgb(0, 18, 179);
+
+}
+
 .menu ul li a:hover {
     color: #8a8a8a;
-    background-color: rgb(0, 18, 179);
-    padding: 50px 10px 50px 10px;
+    
 }
 
 .search-bar {
@@ -325,15 +331,23 @@ h3 {
     }
     .menu ul li {
         display: inline-block;
-        border-style: solid;
-        border-color: rgb(237, 255, 255);
+        border-top-style: solid;
+        border-top-color: rgb(237, 255, 255);
         height: 100px;
     }
-.contato{
-    color: #fff;
-}
-.textoInf {
-    padding-top: 100px;
-}
+    .contato{
+        color: #fff;
+    }
+    .textoInf {
+        padding-top: 100px;
+    }      
+    li:hover {
+
+        background-color: rgb(0, 18, 179);
+
+    }
+    .linkExtend{
+        width: 100%;
+    }
 
 }
