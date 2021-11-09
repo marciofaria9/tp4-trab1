@@ -3,14 +3,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
 
+body {
     background-color: rgb(243, 243, 243);
-
 }
 
-a{
-    text-decoration: none; 
+a {
+    text-decoration: none;
 }
 
 .headerBanner {
@@ -18,28 +17,26 @@ a{
 }
 
 .menu {
-    
     list-style: none;
-    
 }
 
 .menu ul li {
     display: inline-block;
+
 }
 
 .menu ul li a {
-    font-size: 18px;
+
+ font-size: 18px;
     padding: 50px 10px 50px 10px;
     display: inline-block;
     color: white;
     text-decoration: none;
-   
 }
 
 .menu ul li a:hover {
     color: #8a8a8a;
     background-color: rgb(0, 18, 179);
-    
     padding: 50px 10px 50px 10px;
 }
 
@@ -54,8 +51,7 @@ a{
     text-align: left;
 }
 
-
-.imageIcon{
+.imageIcon {
     margin-top: 8%;
     display: inline-flex;
     width: 100%;
@@ -73,7 +69,7 @@ a{
 }
 
 .iconMenu {
-    -webkit-box-shadow: 3px 0px 11px 0px #646464; 
+    -webkit-box-shadow: 3px 0px 11px 0px #646464;
     box-shadow: 3px 0px 11px -0px #646464;
     border-radius: 30px;
 }
@@ -89,7 +85,6 @@ a{
 }
 
 .iconMenu, .botaoMenu {
-    
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
@@ -99,26 +94,25 @@ a{
 }
 
 .footer-rodape {
-    background-color: #a1a1a1;
+    background-color:black;
     width: 100%;
     height: 100px;
     bottom: 0;
     position: relative;
-    
 }
 
 .divLogoRodape {
     display: block;
     float: left;
     margin: 10px;
+    padding-top: 10px;
 }
 
-.logoRodape{
-    margin-top: 8%;
-    display: inline-flex;
-    width: 70px;
-    height: 70px;
-    align-items: center;
+.logoRodape {
+    padding-top: 10px;
+    width: 80px;
+    height: 40px;
+  
 }
 
 .divContatos, .divTextoInf {
@@ -127,42 +121,38 @@ a{
     padding-left: 20px;
     border-color: #fff;
     margin-left: 5%;
-  
 }
 
 .logo {
     float: left;
     padding-top: 5px;
     padding-left: 5px;
+    padding-top: 20px;
 }
 
 .divTextoInf {
     color: rgb(5, 5, 5);
     font-size: 15px;
-      
 }
-.textoInf{
-    color: rgb(5, 5, 5);
+
+.textoInf {
+    color: #fff;
     font-size: 15px;
-   
-    
 }
 
 .textCont {
-    color: rgb(3, 3, 3);
+    padding-top: 5px;
+    color: #fff;
     font-size: 17px;
     text-decoration: underline;
     padding-bottom: 5px;
 }
 
 .contato {
-    
-    color: rgb(0, 0, 0);
+    color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
-    
 }
-
 
 .divLogoRodape {
     padding-left: 10px;
@@ -170,9 +160,8 @@ a{
 }
 
 .itenProd {
-    
     background-color: #ffff;
-    position:relative;
+    position: relative;
     width: 200px;
     height: 250px;
     border-style: groove;
@@ -181,29 +170,26 @@ a{
     border-radius: 10px;
     border: 2px;
     transition: 200ms transform ease-in-out;
-
 }
 
-.itenProd:hover{
-    transform:scale(1.1);
+.itenProd:hover {
+    transform: scale(1.1);
     transition: 300ms transform cubic-bezier(0.42, 0, 0.46, 2.27);
-    top:-2px;
-    -webkit-box-shadow: 3px 0px 11px -1px #646464; 
+    top: -2px;
+    -webkit-box-shadow: 3px 0px 11px -1px #646464;
     box-shadow: 3px 0px 11px -1px #646464;
 }
 
 .itenDiv {
     text-decoration: none;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(64, 64, 64);
     text-align: center;
     flex-direction: column;
     bottom: 0;
-
 }
 
 .div1 {
-    
     background-color: rgb(233, 233, 233);
     max-width: 70%;
     display: block;
@@ -213,13 +199,11 @@ a{
     margin-right: 15%;
     margin-bottom: 5%;
     text-align: center;
-    -webkit-box-shadow: 3px 0px 11px -1px #646464; 
+    -webkit-box-shadow: 3px 0px 11px -1px #646464;
     box-shadow: 3px 0px 11px -1px #646464;
-
 }
 
-.page-title{
-    
+.page-title {
     font-size: 20px;
     padding: 20px;
     color: rgb(102, 102, 102);
@@ -227,108 +211,126 @@ a{
     text-align: left;
     margin-left: 50px;
     float: left;
-
 }
 
-.imgDivDentro{
+.imgDivDentro {
     width: 100%;
     height: 180px;
     align-items: center;
     border-radius: 10px;
 }
 
-.textInformativo, h2,h3{
+.textInformativo, h2, h3 {
     font-size: 18px;
     text-align: left;
     padding: 20px 10px 20px 10px;
     color: #646464;
 }
 
-h2{
-    font-size: 25px;    
-}
-h3{
-    font-size: 20px;    
+h2 {
+    font-size: 25px;
 }
 
-@media (max-width: 1000px){
-    
-    .div1{
+h3 {
+    font-size: 20px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .div1 {
         max-width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
     .footer-rodape {
         width: 100%;
         height: 700px;
         font-size: 40px;
+        background-color:black
     }
-
-    .textoInf, .textCont{
-        font-size: 40px;
-    }
-    .logoRodape{
+    .textoInf, .textCont {
         
-        text-align: center;
-        margin: 20px 200px;
-        min-width: 150px;
-        min-height: 150px;
+        font-size: 40px;
+        color: #fff;
     }
-    .divLogoRodape{
+    .logoRodape {
+        padding-top: 50px;
+       min-width: 200px;
+       min-height: 100px;
+       padding-left: 150px;
+          
+    }
+    .divLogoRodape {
         text-align: center;
         margin: 0px 200px;
-        min-width: 150px;
+       
     }
     .textoInf, .textCont, .contato {
         padding: 20px 0;
     }
-
-    .itenProd{
+    .itenProd {
         width: 350px;
         height: 400px;
     }
-    .imgDivDentro{
+    .imgDivDentro {
         height: 300px;
     }
-    .itenDiv{
+    .itenDiv {
         font-size: 27px
     }
-   
-    .page-title, h1{
+    .page-title, h1 {
         text-align: center;
         display: block;
-        margin: 10px;  
-        float: none; 
+        margin: 10px;
+        float: none;
+       padding: 30px;
     }
-    .imageIcon, .iconMenu{
+    .imageIcon, .iconMenu {
         display: block;
         width: 200px;
         height: 200px;
+       
     }
-    .menu ul li a{
-        
-        height: 100%;
-        float: none;
+    .menu ul li a {
+         float: none;
         font-size: 35px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+        
     }
-    li, .logo,  #logo{
-       display: inline; 
-       width: 100%;
-       float: none;     
+    li, .logo, #logo {
+        display: inline;
+        width: 100%;
+        float: none;
     }
-    #logo{
+    #logo {
         width: 100px;
         height: 100px;
         float: none;
         margin: 0;
-        padding: 35px 0 0  0;
-        position: relative;     
+        padding: 35px 0 0 0;
+        position: relative;
+     
     }
-    
-    .logoDiv{
+    .logoDiv {
         width: 100x;
-        height: 140px;
+        height: 175px;
         text-align: center;
     }
+    .menu ul li {
+        display: inline-block;
+        border-style: solid;
+        border-color: rgb(237, 255, 255);
+        height: 100px;
+    }
+.contato{
+    color: #fff;
+}
+.textoInf {
+    padding-top: 100px;
+}
 
 }
