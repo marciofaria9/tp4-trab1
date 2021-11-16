@@ -5,8 +5,8 @@ var textMenu = ["Alcool em gel 500 ml", "Máscara", "Sabão Antiséptico",
 gorro = [
     { loja: textLojas[0], produto: textMenu[5], preco: "R$ 26,90", linkProd: "https://www.americanas.com.br/produto/3354769132?pfm_carac=touca-descartavel&pfm_page=search&pfm_pos=grid&pfm_type=search_page&offerId=60b6a8b052131c3c813dba16" },
     { loja: textLojas[1], produto: textMenu[5], preco: "R$ 28,99", linkProd: "https://www.carrefour.com.br/touca-descartavel-sanfonada-tnt-com-100-unidades-mp911950886/p" },
-    { loja: textLojas[2], produto: textMenu[5], preco: "R$ 10,30", linkProd: "https://www.magazineluiza.com.br/touca-descartavel-tnt-c-elastico-pacote-c-100-unidades-vabene/p/kjg07ehc01/pi/czin/" },
-    { loja: textLojas[3], produto: textMenu[5], preco: "R$ 26,86", linkProd: "https://www.amazon.com.br/Descartavel-Culin%C3%A1rio-Est%C3%A9tico-Gastron%C3%B4mico-Unidades/dp/B08YF9HTKX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=touca+descartavel&qid=1635903085&sr=8-1" },
+    { loja: textLojas[2], produto: textMenu[5], preco: "R$ 10,50", linkProd: "https://www.magazineluiza.com.br/touca-descartavel-tnt-c-elastico-pacote-c-100-unidades-vabene/p/kjg07ehc01/pi/czin/" },
+    { loja: textLojas[3], produto: textMenu[5], preco: "R$ 26,20", linkProd: "https://www.amazon.com.br/Descartavel-Culin%C3%A1rio-Est%C3%A9tico-Gastron%C3%B4mico-Unidades/dp/B08YF9HTKX/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=touca+descartavel&qid=1635903085&sr=8-1" },
     { loja: textLojas[4], produto: textMenu[5], preco: "R$ 15,20", linkProd: "https://www.submarino.com.br/produto/14881463?pfm_carac=touca-descartavel&pfm_index=4&pfm_page=search&pfm_pos=grid&pfm_type=search_page" }
 ]
 
